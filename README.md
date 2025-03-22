@@ -24,30 +24,23 @@ The application requires the following installations to operate:
    
 ```
 2. cd into Django-Netflix-Clone
-```
 cd Django-Netflix-Clone
 ```
 3. create a virtual env
-```
 py -m venv env
 ```
 4. activate env
-```
 env\scripts\activate
 ```
 5. Open CMD & Install Dependancies
-```
 pip install -r requirements.txt
 ```
 6. Make Migrations
-```
 py manage.py makemigrations
 ```
 7. Migrate DB
-```
 py manage.py migrate
 ```
 8. Run Application
-```
 py manage.py runserver
 ```
